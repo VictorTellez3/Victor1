@@ -1,0 +1,82 @@
+#site{
+    /*Definimos el ancho de la página*/
+    width: 1000px;
+    /*Definimos la altura de la página*/
+    height: 1000px;
+    /*Aquí ponemos la posición que la página ocupará en la pantalla*/
+    /*Top:Posicionamiento superior*/
+    margin-top: 0;
+    /*Top:Posicionamiento izquierdo*/
+    margin-left: auto;
+    /*Top:Posicionamiento inferior*/
+    margin-bottom: 0;
+    /*Top:Posicionamiento derecho*/
+    margin-right: auto;
+    /*Aquí definiremos el color del fondo*/
+    background-color: #666;
+}
+
+#header{
+    /*Ancho de la div*/
+    width: 1000px;
+    /*Altura de la div*/
+    height: 400px;
+    /*Color de la div*/
+    background-image: url(Q.jpg)
+}
+
+#cuerpo{
+    width: 1000px;
+    height: 1000px;
+    background-color: teal;
+}
+
+#footer{
+    width: 1000px;
+    height: 100px;
+    background-image: url(ft.jpg);
+    align-items: center;
+}
+
+#cuerpo-left{
+    width: 500px;
+    height: 720px;
+    /*Utilizamos float para que nuestro div "flote" y se posicione en la página cuando escogemos left y se posicionara a la izquierda de la página*/
+    float: left;
+    background-color: cornflowerblue;
+}
+
+#cuerpo-right{
+    width: 500px;
+    height: 400px;
+    float: left;
+    background-color: aquamarine;
+}
+
+#cuerpo-rightBottomo{
+    width: 500px;
+    height: 320px;
+    float: left;
+    background-color: aqua;
+}
+
+#cuerpo-bottom{
+    width: 1000px;
+    height: 280px;
+    background-color: teal;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    width: 600px;
+    margin-top: 50px;
+}
+
+table{
+    width: 1000px;
+}

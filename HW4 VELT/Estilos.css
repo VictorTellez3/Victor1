@@ -1,0 +1,27 @@
+#header{
+    /*Ancho de la div*/
+    width: 1000px;
+    /*Altura de la div*/
+    height: 100px;}
+body{
+    color: aliceblue;
+    background-color: black;
+}
+
+.bottomNav {
+    overflow: hidden;
+    background-color: black;
+}
+.bottomNav a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.bottomNav a:hover{
+    background-color: #1C2833;
+    color: #1B4F72;
+}
+table{
+    width: 100%;
+}
